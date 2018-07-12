@@ -22,7 +22,7 @@ begin to implement one and not complete it, you won't be marked down for this, l
 and/or document how you would implement the task had you the time in a text file called notes.txt in the repository root.
 
 1. We want to be able to run the same stack closer to our customers in the US. Please build the same stack in 
-the us-east-1 (Virginia) region. Note that Virginia has four availability zones which we want to take advantage of so 
+the us-east-1 (Virginia) region. Note that Virginia has serveral availability zones which we want to use 4 of them so 
 that will need to be taken into consideration yet we still want to run a stack in Ireland using the 3 AZs there. We want
 to reuse as much code as possible, we don't want a separate network definition for each region. Feel free to 
 modify the existing code as much as possible in order to do this, you'll also need to consider terraform state each stack
