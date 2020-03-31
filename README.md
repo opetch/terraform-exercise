@@ -7,7 +7,7 @@ to any other candidates, instead zip up your repo and forward to the agent.
 Here we have some terraform to build a simple VPC network, for now we have just one instance running the web server 
 Nginx in it's default configuration, serving up the default welcome page. To run this use the following command...
 
-    terraform apply -var-file=dublin.tfvars
+    terraform init && terraform apply -var-file=dublin.tfvars
 
 We want this to be extended, you're tasked with making the alterations detailed below, after completing each stage 
 a test to show the things are still working would be to run the following command and expect to see the Nginx welcome 
